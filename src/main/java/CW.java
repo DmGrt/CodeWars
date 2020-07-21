@@ -103,31 +103,6 @@ public class CW {
             }
         }
         return resp;
-
-        // if (strarr.length == 0 || k<=0 || k > strarr.length)
-        //     return "";
-        // int maxL = 0;
-        // int maxI = 0;
-        // String maxS = "";
-        // String resp = "";
-        // for (int i = 0; i < k; i++) {
-        //     for (int j = 0; j < strarr.length; j++) {
-        //         if (strarr[j].length() > maxL) {
-        //             maxI = j;
-        //             maxL = strarr[j].length();
-        //             maxS = strarr[j];
-        //         }
-        //     }
-        //     resp += strarr[maxI];
-        //     for (int p = 0; p < strarr.length; p++) {
-        //         if (strarr[p].equals(maxS))
-        //             strarr[p] = "";
-        //     }
-        //     maxL = 0;
-        //     maxI = 0;
-        //     maxS = "";
-        // }
-        // return resp;
     }
 
     public static int[][] twosDifference(int[] array) {
@@ -292,25 +267,6 @@ public class CW {
         }
         return -1;
     }
-
-    // public static String decode(String r) {
-    //     char[] str = r.toCharArray();
-    //     String sBase = "";
-    //     int base;
-    //     int counter = 0;
-    //     for (char i : str) {
-    //         if (Character.isDigit(i)) {
-    //             sBase += i;
-    //             counter++;
-    //         }
-    //     }
-//
-    //     for (int j = counter; j < str.length; j++){
-    //         str[j] =
-    //     }
-//
-    //         base = Integer.parseInt(sBase);
-    // }
 
     static int find(int[] integers) {
         int count = 0;
@@ -646,9 +602,6 @@ public class CW {
             }
         }
         return resp;
-        //return Arrays.stream(numbers)
-        //        .filter(i -> (i % divider) == 0)
-        //        .toArray();
     }
 
     public static String solution(String str) {
@@ -657,7 +610,6 @@ public class CW {
         for (int i = str.length() - 1; i >= 0; i--)
             resp += symb[i];
         return resp;
-        //return new StringBuilder(str).reverse().toString();
     }
 
     public static int sumOfDifferences(int[] arr) {
